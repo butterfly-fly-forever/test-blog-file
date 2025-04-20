@@ -3282,11 +3282,8 @@ a.text-theme:hover,
 /*------------------- 4.1. Widget  -------------------*/
 .widget {
   padding: var(--widget-padding-y, 40px) var(--widget-padding-x, 40px);
-  background-color: var(--smoke-color);
   position: relative;
   margin-bottom: 30px;
-  border-radius: 30px;
-  border: 1px solid var(--vs-border-color5);
 }
 .widget:last-child {
   margin-bottom: 0;
