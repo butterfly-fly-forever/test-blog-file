@@ -106,7 +106,8 @@ h6 {
 .trending-product-arrows.style-one .slick-arrow:after,
 .category-arrows.style-one .slick-arrow:after,
 .feature-arrows.style-one .slick-arrow:after, .hero-dots .slick-dots li.slick-active,
-.team-slider-dots .slick-dots li.slick-active, .blog-details-content .blog-post-item .post-content blockquote span:before, .blog-post-item.style-three:hover, .cart-sidebar-area .cart-widget.coupon-box-widget form button, .shop-sidebar-area .product-widget.price-filter-widget .widget-content .ui-widget .ui-slider-range, .shop-details-wrapper .description-wrapper ul.list li:before, .shop-details-wrapper .product-info .product-cart-variation .icon-btn:hover, .faqs-search .search-btn, .team-item.style-one .member-img .hover-content ul.social-link li a:hover, .pesco-tabs.style-two .nav-link.active, .pesco-tabs.style-one .nav-link.active, .product-item.style-one .product-thumbnail .cart-button .cart-btn, .product-item.style-one .product-thumbnail .discount, .banner-item.style-three .banner-content .separator:after, .banner-item.style-three .banner-content .separator, .pesco-pagination ul li a:hover, .theme-btn.style-one, .primary-dark-bg {
+.team-slider-dots .slick-dots li.slick-active, .blog-details-content .blog-post-item .post-content blockquote span:before, .blog-post-item.style-three:hover, .cart-sidebar-area .cart-widget.coupon-box-widget form button, .shop-sidebar-area .product-widget.price-filter-widget .widget-content .ui-widget .ui-slider-range, .shop-details-wrapper .description-wrapper ul.list li:before, .shop-details-wrapper .product-info .product-cart-variation .icon-btn:hover, .faqs-search .search-btn, .team-item.style-one .member-img .hover-content ul.social-link li a:hover, .pesco-tabs.style-two .nav-link.active, .pesco-tabs.style-one .nav-link.active, 
+ .cart-button .cart-btn, .product-item.style-one .product-thumbnail .discount, .banner-item.style-three .banner-content .separator:after, .banner-item.style-three .banner-content .separator, .pesco-pagination ul li a:hover, .theme-btn.style-one, .primary-dark-bg {
   background-color: var(--primary-dark-color);
 }
 
@@ -2177,9 +2178,9 @@ button {
 .product-item.style-one .product-thumbnail {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 .product-item.style-one .product-thumbnail img {
-  width: 100%;
   border-radius: 16px;
 }
 .product-item.style-one .product-thumbnail .discount {
