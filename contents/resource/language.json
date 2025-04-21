@@ -1,0 +1,806 @@
+﻿[
+  {
+    "Key": "InputOnlyWord",
+    "ValueEn": "Input word",
+    "ValueZh": "输入字词",
+    "ValueVi": "Nhập vào Từ"
+  },
+  {
+    "Key": "advanced.search",
+    "ValueEn": "Advanced Search",
+    "ValueZh": "高级搜索",
+    "ValueVi": "Tìm Kiếm Nâng Cao"
+  },
+  {
+    "Key": "Clear",
+    "ValueEn": "Clear",
+    "ValueZh": "重写",
+    "ValueVi": "Xóa"
+  },
+  {
+    "Key": "confirm",
+    "ValueEn": "Confirm",
+    "ValueZh": "确认",
+    "ValueVi": "Xác Nhận"
+  },
+  {
+    "Key": "save",
+    "ValueEn": "Save",
+    "ValueZh": "保存",
+    "ValueVi": "Lưu"
+  },
+  {
+    "Key": "Contact",
+    "ValueEn": "Contact",
+    "ValueZh": "联系",
+    "ValueVi": "Liên Hệ"
+  },
+  {
+    "Key": "Hello",
+    "ValueEn": "Hello",
+    "ValueZh": "你好",
+    "ValueVi": "Xin Chào"
+  },
+  {
+    "Key": "time",
+    "ValueEn": "Time",
+    "ValueZh": "时间",
+    "ValueVi": "Thời Gian"
+  },
+  {
+    "Key": "finish",
+    "ValueEn": "Finish",
+    "ValueZh": "完成",
+    "ValueVi": "Kết Thúc"
+  },
+  {
+    "Key": "Home",
+    "ValueEn": "Home",
+    "ValueZh": "首页",
+    "ValueVi": "Trang Chủ"
+  },
+  {
+    "Key": "Logout",
+    "ValueEn": "Logout",
+    "ValueZh": "登出",
+    "ValueVi": "Đăng Xuất"
+  },
+  {
+    "Key": "Login",
+    "ValueEn": "Login",
+    "ValueZh": "登录",
+    "ValueVi": "Đăng Nhập"
+  },
+  {
+    "Key": "Register",
+    "ValueEn": "Register",
+    "ValueZh": "注册",
+    "ValueVi": "Đăng Ký"
+  },
+  {
+    "Key": "Search",
+    "ValueEn": "Search",
+    "ValueZh": "搜索",
+    "ValueVi": "Tìm kiếm"
+  },
+  {
+    "Key": "email",
+    "ValueEn": "Email",
+    "ValueZh": "邮箱地址",
+    "ValueVi": "Email"
+  },
+  {
+    "Key": "password",
+    "ValueEn": "Password",
+    "ValueZh": "密码",
+    "ValueVi": "Mật Khẩu"
+  },
+  {
+    "Key": "username",
+    "ValueEn": "Username",
+    "ValueZh": "用户名",
+    "ValueVi": "Tên Tài khoản"
+  },
+  {
+    "Key": "fullname",
+    "ValueEn": "Fullname",
+    "ValueZh": "姓名",
+    "ValueVi": "Tên Đầy Đủ"
+  },
+  {
+    "Key": "phone",
+    "ValueEn": "Phone",
+    "ValueZh": "电话",
+    "ValueVi": "Điện Thoại"
+  },
+  {
+    "Key": "search.by.type",
+    "ValueEn": "Search By Type",
+    "ValueZh": "按类型搜索",
+    "ValueVi": "Tìm Kiếm Theo Loại"
+  },
+  {
+    "Key": "q.a",
+    "ValueEn": "Q&A",
+    "ValueZh": "问答",
+    "ValueVi": "Hỏi Đáp"
+  },
+  {
+    "Key": "result.search",
+    "ValueEn": "Result",
+    "ValueZh": "搜索结果",
+    "ValueVi": "Kết Quả"
+  },
+  {
+    "Key": "please.select",
+    "ValueEn": "Please select",
+    "ValueZh": "请选择",
+    "ValueVi": "Xin chọn"
+  },
+  {
+    "Key": "select",
+    "ValueEn": "select",
+    "ValueZh": "选择",
+    "ValueVi": "Chọn"
+  },
+  {
+    "Key": "description",
+    "ValueEn": "Description",
+    "ValueZh": "描述",
+    "ValueVi": "Mô Tả"
+  },
+  {
+    "Key": "title",
+    "ValueEn": "Title",
+    "ValueZh": "标题",
+    "ValueVi": "Tựa Đề"
+  },
+  {
+    "Key": "other.category",
+    "ValueEn": "Other Categories",
+    "ValueZh": "其他类别",
+    "ValueVi": "Danh Mục Khác"
+  },
+  {
+    "Key": "activities",
+    "ValueEn": "Activities",
+    "ValueZh": "活动",
+    "ValueVi": "Hoạt Động"
+  },
+  {
+    "Key": "search",
+    "ValueEn": "Search",
+    "ValueZh": "搜尋",
+    "ValueVi": "Tìm Kiếm"
+  },
+  {
+    "Key": "birthday",
+    "ValueEn": "Birthday",
+    "ValueZh": "生日",
+    "ValueVi": "Ngày Sinh"
+  },
+  {
+    "Key": "address",
+    "ValueEn": "Address",
+    "ValueZh": "地址",
+    "ValueVi": "Địa Chỉ"
+  },
+  {
+    "Key": "avatar",
+    "ValueEn": "Avatar",
+    "ValueZh": "阿凡达",
+    "ValueVi": "Ảnh Đại Diện"
+  },
+  {
+    "Key": "personal.info",
+    "ValueEn": "Personal Information",
+    "ValueZh": "个人信息",
+    "ValueVi": "Thông Tin Cá Nhân"
+  },
+  {
+    "Key": "gender",
+    "ValueEn": "Gender",
+    "ValueZh": "性别",
+    "ValueVi": "Giới Tính"
+  },
+  {
+    "Key": "male",
+    "ValueEn": "Male",
+    "ValueZh": "男",
+    "ValueVi": "Nam"
+  },
+  {
+    "Key": "female",
+    "ValueEn": "Female",
+    "ValueZh": "女",
+    "ValueVi": "Nữ"
+  },
+  {
+    "Key": "account.info",
+    "ValueEn": "Account",
+    "ValueZh": "帐户信息",
+    "ValueVi": "Thông Tin Tài khoản"
+  },
+  {
+    "Key": "change.password",
+    "ValueEn": "Change Password",
+    "ValueZh": "修改密码",
+    "ValueVi": "Đổi Mật Khẩu"
+  },
+  {
+    "Key": "notification",
+    "ValueEn": "Notification",
+    "ValueZh": "通知",
+    "ValueVi": "Thông Báo"
+  },
+  {
+    "Key": "friends",
+    "ValueEn": "Friends",
+    "ValueZh": "好友",
+    "ValueVi": "Bạn Bè"
+  },
+  {
+    "Key": "messager",
+    "ValueEn": "Chat",
+    "ValueZh": "聊天",
+    "ValueVi": "Chat"
+  },
+  {
+    "Key": "old.password",
+    "ValueEn": "Old Password",
+    "ValueZh": "原始密码",
+    "ValueVi": "Mật Khẩu Cũ"
+  },
+  {
+    "Key": "new.password",
+    "ValueEn": "New Password",
+    "ValueZh": "新密码",
+    "ValueVi": "Mật Khẩu Mới"
+  },
+  {
+    "Key": "confirmation.password",
+    "ValueEn": "Confirmation Password",
+    "ValueZh": "确认密码",
+    "ValueVi": "Mật Khẩu Xác Nhận"
+  },
+  {
+    "Key": "please.old.password",
+    "ValueEn": "Please input old password",
+    "ValueZh": "请输入原始密码",
+    "ValueVi": "Xin nhập mật khẩu cũ"
+  },
+  {
+    "Key": "new.confirm.inconsistent",
+    "ValueEn": "The new password and the confirmed password are inconsistent.",
+    "ValueZh": "新密码和确认密码不一致",
+    "ValueVi": "Mật khẩu mới và xác nhận không nhất quán"
+  },
+  {
+    "Key": "please.new.password",
+    "ValueEn": "Please input new password",
+    "ValueZh": "请输入新密码",
+    "ValueVi": "Xin nhập mật khẩu mới"
+  },
+  {
+    "Key": "minimum.character.password",
+    "ValueEn": "The password is the minimum character 3 that meets the requirements",
+    "ValueZh": "密码为符合要求的最少字符 3",
+    "ValueVi": "Mật khẩu phải ít nhất 3 ký tự"
+  },
+  {
+    "Key": "nothing.record",
+    "ValueEn": "Nothing found",
+    "ValueZh": "没有找到记录",
+    "ValueVi": "Không có mẫu tin nào"
+  },
+  {
+    "Key": "datatable.display.each.page",
+    "ValueEn": "Display _MENU_ records per page",
+    "ValueZh": "每页 _MENU_ 条",
+    "ValueVi": "Tổng _MENU_ mẫu tin mỗi trang"
+  },
+  {
+    "Key": "no.records",
+    "ValueEn": "No records available",
+    "ValueZh": "无记录",
+    "ValueVi": "Không có dữ liệu"
+  },
+  {
+    "Key": "processing",
+    "ValueEn": "Processing...",
+    "ValueZh": "正在加载中...",
+    "ValueVi": "Đang xử lý"
+  },
+  {
+    "Key": "datatable.info.filtered",
+    "ValueEn": "(filtered from _MAX_ total records)",
+    "ValueZh": "(由 _MAX_ 项结果过滤)",
+    "ValueVi": "Biểu diễn _MAX_ tổng mẫu tin"
+  },
+  {
+    "Key": "datatable.show.page",
+    "ValueEn": "Showing page _PAGE_ of _PAGES_",
+    "ValueZh": "顯示第 _PAGE_ 共 _PAGES_ 條",
+    "ValueVi": "Trang thứ _PAGE_ của _PAGES_ trang"
+  },
+  {
+    "Key": "first",
+    "ValueEn": "First",
+    "ValueZh": "首頁",
+    "ValueVi": "Đầu"
+  },
+  {
+    "Key": "last",
+    "ValueEn": "Last",
+    "ValueZh": "末頁",
+    "ValueVi": "Cuối"
+  },
+  {
+    "Key": "previous",
+    "ValueEn": "Previous",
+    "ValueZh": "上一頁",
+    "ValueVi": "Trước"
+  },
+  {
+    "Key": "next",
+    "ValueEn": "Next",
+    "ValueZh": "下一頁",
+    "ValueVi": "Sau"
+  },
+  {
+    "Key": "show",
+    "ValueEn": "Show",
+    "ValueZh": "显示",
+    "ValueVi": "Hiện"
+  },
+  {
+    "Key": "hide",
+    "ValueEn": "Hide",
+    "ValueZh": "隐藏",
+    "ValueVi": "Ẩn"
+  },
+  {
+    "Key": "horizontal",
+    "ValueEn": "Horizontal",
+    "ValueZh": "水平",
+    "ValueVi": "Chiều Ngang"
+  },
+  {
+    "Key": "vertical",
+    "ValueEn": "Vertical",
+    "ValueZh": "垂直",
+    "ValueVi": "Chiều Dọc"
+  },
+  {
+    "Key": "align",
+    "ValueEn": "Align",
+    "ValueZh": "对齐",
+    "ValueVi": "Định Hướng"
+  },
+  {
+    "Key": "submit",
+    "ValueEn": "Submit",
+    "ValueZh": "提交",
+    "ValueVi": "Xử Lý"
+  },
+  {
+    "Key": "layout",
+    "ValueEn": "Layout",
+    "ValueZh": "布局",
+    "ValueVi": "Bố Cục"
+  },
+  {
+    "Key": "layout.grid",
+    "ValueEn": "Grid",
+    "ValueZh": "网格",
+    "ValueVi": "Lưới"
+  },
+  {
+    "Key": "layout.col",
+    "ValueEn": "Columns",
+    "ValueZh": "列",
+    "ValueVi": "Cột"
+  },
+  {
+    "Key": "empty",
+    "ValueEn": "Empty",
+    "ValueZh": "空",
+    "ValueVi": "Rỗng"
+  },
+  {
+    "Key": "cross",
+    "ValueEn": "Cross",
+    "ValueZh": "十字",
+    "ValueVi": "Bắt Chéo"
+  },
+  {
+    "Key": "load.more",
+    "ValueEn": "Load More",
+    "ValueZh": "加载更多",
+    "ValueVi": "Xem Thêm"
+  },
+  {
+    "Key": "warning",
+    "ValueEn": "Warning",
+    "ValueZh": "警告",
+    "ValueVi": "Cảnh Báo"
+  },
+  {
+    "Key": "success",
+    "ValueEn": "Success",
+    "ValueZh": "成功",
+    "ValueVi": "Thành Công"
+  },
+  {
+    "Key": "info",
+    "ValueEn": "Information",
+    "ValueZh": "通知",
+    "ValueVi": "Thông Báo"
+  },
+  {
+    "Key": "accept",
+    "ValueEn": "Accept",
+    "ValueZh": "接受",
+    "ValueVi": "Chấp Nhận"
+  },
+  {
+    "Key": "delete",
+    "ValueEn": "Delete",
+    "ValueZh": "删除",
+    "ValueVi": "Xóa"
+  },
+  {
+    "Key": "other",
+    "ValueEn": "Other",
+    "ValueZh": "其他",
+    "ValueVi": "Khác"
+  },
+  {
+    "Key": "suggestion.q.a",
+    "ValueEn": "Suggestion Request",
+    "ValueZh": "建议请求",
+    "ValueVi": "Góp Ý"
+  },
+  {
+    "Key": "add.new",
+    "ValueEn": "Add New",
+    "ValueZh": "新增",
+    "ValueVi": "Tạo Mới"
+  },
+  {
+    "Key": "view",
+    "ValueEn": "View",
+    "ValueZh": "显示",
+    "ValueVi": "Xem"
+  },
+  {
+    "Key": "btn.convert",
+    "ValueEn": "Convert",
+    "ValueZh": "转换",
+    "ValueVi": "Chuyển Đổi"
+  },
+  {
+    "Key": "simplify",
+    "ValueEn": "Simplify",
+    "ValueZh": "简体",
+    "ValueVi": "Giản Thể"
+  },
+  {
+    "Key": "traditional",
+    "ValueEn": "Traditional",
+    "ValueZh": "繁体",
+    "ValueVi": "Phồn Thể"
+  },
+  {
+    "Key": "result",
+    "ValueEn": "Result",
+    "ValueZh": "结果",
+    "ValueVi": "Kết Quả"
+  },
+  {
+    "Key": "convert.to",
+    "ValueEn": "Convert to",
+    "ValueZh": "转换成",
+    "ValueVi": "Chuyển qua"
+  },
+  {
+    "Key": "singer",
+    "ValueEn": "Singer",
+    "ValueZh": "歌手",
+    "ValueVi": "Ca Sĩ"
+  },
+  {
+    "Key": "song.name",
+    "ValueEn": "Song Name",
+    "ValueZh": "中文名",
+    "ValueVi": "Tên Bài Hát"
+  },
+  {
+    "Key": "author",
+    "ValueEn": "Author",
+    "ValueZh": "作曲",
+    "ValueVi": "Sáng Tác"
+  },
+  {
+    "Key": "vietnamese.translate",
+    "ValueEn": "Vietnamese Translate Title",
+    "ValueZh": "越语的标题",
+    "ValueVi": "Tên Dịch Việt"
+  },
+  {
+    "Key": "input.to.search",
+    "ValueEn": "Input keywords to search",
+    "ValueZh": "输入关键字过滤",
+    "ValueVi": "Nhập vào để tìm kiếm"
+  },
+  {
+    "Key": "chinese",
+    "ValueEn": "Chinese",
+    "ValueZh": "中文",
+    "ValueVi": "Trung"
+  },
+  {
+    "Key": "order.sentence.title.puzzle",
+    "ValueEn": "The Order Words To Complete Sentence Puzzle",
+    "ValueZh": "连词成句",
+    "ValueVi": "Ứng Dụng Sắp Xếp Mẫu Câu"
+  },
+  {
+    "Key": "start",
+    "ValueEn": "Start",
+    "ValueZh": "开始",
+    "ValueVi": "Bắt Đầu"
+  },
+  {
+    "Key": "post.by",
+    "ValueEn": "Post By",
+    "ValueZh": "作者",
+    "ValueVi": "Đăng Bởi"
+  },
+  {
+    "Key": "synonyms",
+    "ValueEn": "Synonyms",
+    "ValueZh": "同义词",
+    "ValueVi": "Đồng Nghĩa"
+  },
+  {
+    "Key": "antonyms",
+    "ValueEn": "Antonyms",
+    "ValueZh": "反义词",
+    "ValueVi": "Trái Nghĩa"
+  },
+  {
+    "Key": "input.amount.sentences",
+    "ValueEn": "Input number of sentences",
+    "ValueZh": "输入句子数量",
+    "ValueVi": "Nhập số câu"
+  },
+  {
+    "Key": "puzzle.phrase.desc.4",
+    "ValueEn": "Then click button",
+    "ValueZh": "然后点击",
+    "ValueVi": "Sau đó bạn chọn nút hình"
+  },
+  {
+    "Key": "add.new.card",
+    "ValueEn": "Add New Card",
+    "ValueZh": "添加卡",
+    "ValueVi": "Thêm Mới Thẻ"
+  },
+  {
+    "Key": "add.new.list",
+    "ValueEn": "Add New List",
+    "ValueZh": "添加列表",
+    "ValueVi": "Thêm Mới Danh Sách"
+  },
+  {
+    "Key": "input.list.name",
+    "ValueEn": "Enter a list name",
+    "ValueZh": "输入列表名称",
+    "ValueVi": "Nhập tên danh sách"
+  },
+  {
+    "Key": "input.card.name",
+    "ValueEn": "Enter a card name",
+    "ValueZh": "输入卡名称",
+    "ValueVi": "Nhập tên thẻ"
+  },
+  {
+    "Key": "comment",
+    "ValueEn": "Comment",
+    "ValueZh": "评论",
+    "ValueVi": "Bình Luận"
+  },
+  {
+    "Key": "content",
+    "ValueEn": "Content",
+    "ValueZh": "内容",
+    "ValueVi": "Nội dung"
+  },
+  {
+    "Key": "recommended.content",
+    "ValueEn": "Recommended Content",
+    "ValueZh": "推荐内容",
+    "ValueVi": "Bài Đề Xuất"
+  },
+  {
+    "Key": "close",
+    "ValueEn": "Close",
+    "ValueZh": "关闭",
+    "ValueVi": "Đóng"
+  },
+  {
+    "Key": "privacy.policy",
+    "ValueEn": "Privacy Policy",
+    "ValueZh": "隐私政策",
+    "ValueVi": "Chính Sách Bảo Mật"
+  },
+  {
+    "Key": "account.agreement",
+    "ValueEn": "Account Agreement",
+    "ValueZh": "账号协议",
+    "ValueVi": "Điều Khoản"
+  },
+  {
+    "Key": "contact.us",
+    "ValueEn": "Contact Us",
+    "ValueZh": "联系我们",
+    "ValueVi": "Liên Hệ"
+  },
+  {
+    "Key": "my.profile",
+    "ValueEn": "My Profile",
+    "ValueZh": "个人信息",
+    "ValueVi": "Hồ Sơ"
+  },
+  {
+    "Key": "copyright",
+    "ValueEn": "Copyright",
+    "ValueZh": "版权所有",
+    "ValueVi": "Bản quyền"
+  },
+  {
+    "Key": "click.see.detail",
+    "ValueEn": "Click to view details",
+    "ValueZh": "点击查看详情",
+    "ValueVi": "Nhấn vào để xem chi tiết"
+  },
+  {
+    "Key": "display.image",
+    "ValueEn": "Display Image",
+    "ValueZh": "图片展示",
+    "ValueVi": "Hiển Thị Ảnh"
+  },
+  {
+    "Key": "show.information",
+    "ValueEn": "Show Information",
+    "ValueZh": "显示信息",
+    "ValueVi": "Hiển Thị Thông Tin"
+  },
+  {
+    "Key": "information",
+    "ValueEn": "Information",
+    "ValueZh": "信息",
+    "ValueVi": "Thông Tin"
+  },
+  {
+    "Key": "show.subjects",
+    "ValueEn": "Show Details",
+    "ValueZh": "显示详情",
+    "ValueVi": "Hiển Thị Chủ Đề"
+  },
+  {
+    "Key": "show.meaning",
+    "ValueEn": "Show Meaning",
+    "ValueZh": "显示意思",
+    "ValueVi": "Hiển Thị Nghĩa"
+  },
+  {
+    "Key": "upgrade",
+    "ValueEn": "Upgrade",
+    "ValueZh": "升级",
+    "ValueVi": "Nâng Cấp"
+  },
+  {
+    "Key": "premium.functions",
+    "ValueEn": "Premium Functions",
+    "ValueZh": "高级功能",
+    "ValueVi": "Chức Năng Nâng Cao"
+  },
+  {
+    "Key": "send.us.message",
+    "ValueEn": "Send us a Message",
+    "ValueZh": "留言",
+    "ValueVi": "Gửi Lời Nhắn"
+  },
+  {
+    "Key": "send.message.successful",
+    "ValueEn": "Send Message Successful.",
+    "ValueZh": "发送消息成功",
+    "ValueVi": "Gửi Lời Nhắn Thành Công"
+  },
+  {
+    "Key": "choose.categories",
+    "ValueEn": "Choose Categories",
+    "ValueZh": "选择类别",
+    "ValueVi": "Chọn Danh Mục"
+  },
+  {
+    "Key": "explaination",
+    "ValueEn": "Explaination",
+    "ValueZh": "解释",
+    "ValueVi": "Giải Nghĩa"
+  },
+  {
+    "Key": "tool",
+    "ValueEn": "Tool",
+    "ValueZh": "工具",
+    "ValueVi": "Công Cụ"
+  },
+  {
+    "Key": "tv.drama",
+    "ValueEn": "TV Drama",
+    "ValueZh": "电视剧",
+    "ValueVi": "Phim Bộ"
+  },
+  {
+    "Key": "movie",
+    "ValueEn": "Movie",
+    "ValueZh": "电影",
+    "ValueVi": "Phim Điện Ảnh"
+  },
+  {
+    "Key": "anime",
+    "ValueEn": "Anime",
+    "ValueZh": "动漫",
+    "ValueVi": "Phim Hoặt Hình"
+  },
+  {
+    "Key": "karaoke",
+    "ValueEn": "Karaoke",
+    "ValueZh": "卡拉OK",
+    "ValueVi": "Karaoke"
+  },
+  {
+    "Key": "library",
+    "ValueEn": "Library",
+    "ValueZh": "馆藏",
+    "ValueVi": "Thư Viện"
+  },
+  {
+    "Key": "dev.course",
+    "ValueEn": "Dev Course",
+    "ValueZh": "学习编程",
+    "ValueVi": "Khóa Lập Trình"
+  },
+  {
+    "Key": "entertainment",
+    "ValueEn": "Entertainment",
+    "ValueZh": "娱乐",
+    "ValueVi": "Giải Trí"
+  },
+  {
+    "Key": "game",
+    "ValueEn": "Game",
+    "ValueZh": "游戏",
+    "ValueVi": "Trò Chơi"
+  },
+  {
+    "Key": "download.guide",
+    "ValueEn": "Download Guide",
+    "ValueZh": "下载指南",
+    "ValueVi": "Hướng dẫn tải xuống"
+  },
+  {
+    "Key": "download.link",
+    "ValueEn": "Download Link",
+    "ValueZh": "下载链接",
+    "ValueVi": "Liên kết tải xuống"
+  },
+  {
+    "Key": "download",
+    "ValueEn": "Download",
+    "ValueZh": "下载",
+    "ValueVi": "Tải xuống"
+  }
+]
