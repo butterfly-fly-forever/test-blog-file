@@ -1,2 +1,2 @@
-
 [{"id":"c870dccd-c981-4cef-a508-85f6fa085f52","fullname":"test","email":"test@gmail.com","password":"123","birthday":"17/2025/04"}]
+[{"id":"c870dccd-c981-4cef-a508-85f6fa085f52","fullname":"test","email":"test@gmail.com","password":"123","birthday":"17/2025/04"},{"id":"c666e841-9a9c-414e-99c5-6f63847448ce","fullname":"test","email":"test2@gmail.com","password":"123","birthday":"17/2025/04"}]
