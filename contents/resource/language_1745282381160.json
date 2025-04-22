@@ -36,7 +36,7 @@
     "ValueVi": "Liên Hệ"
   },
   {
-    "Key": "Hello",
+    "Key": "hello",
     "ValueEn": "Hello",
     "ValueZh": "你好",
     "ValueVi": "Xin Chào"
@@ -54,19 +54,19 @@
     "ValueVi": "Kết Thúc"
   },
   {
-    "Key": "Home",
+    "Key": "home",
     "ValueEn": "Home",
     "ValueZh": "首页",
     "ValueVi": "Trang Chủ"
   },
   {
-    "Key": "Logout",
+    "Key": "logout",
     "ValueEn": "Logout",
     "ValueZh": "登出",
     "ValueVi": "Đăng Xuất"
   },
   {
-    "Key": "Login",
+    "Key": "login",
     "ValueEn": "Login",
     "ValueZh": "登录",
     "ValueVi": "Đăng Nhập"
@@ -814,5 +814,11 @@
     "ValueEn": "Romance",
     "ValueVi": "Phim Lãng Mạn",
     "ValueZh": "浪漫电影"
+  },
+  {
+    "Key": "anime",
+    "ValueEn": "Anime",
+    "ValueVi": "Phim Hoạt Hình",
+    "ValueZh": "动漫"
   }
 ]
