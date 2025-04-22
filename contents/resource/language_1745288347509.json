@@ -138,6 +138,12 @@
     "ValueVi": "Xin chọn"
   },
   {
+    "Key": "please",
+    "ValueEn": "Please",
+    "ValueZh": "请",
+    "ValueVi": "Vui lòng"
+  },
+  {
     "Key": "select",
     "ValueEn": "select",
     "ValueZh": "选择",
@@ -901,18 +907,18 @@
   },
   {
     "Key": "youalsolike",
-    "ValueEn": "You may also like",
-    "ValueVi": "Cùng Thể Loại",
-    "ValueZh": "猜你喜欢"
+    "ValueEn": "🎬 You may also like",
+    "ValueVi": "🎬 Phim Cùng Thể Loại",
+    "ValueZh": "🎬 猜你喜欢"
   },
   {
-    "Key": "fastserver",
+    "Key": "fast.server",
     "ValueEn": "Fast Server",
     "ValueVi": "Máy Chủ Nhanh",
     "ValueZh": "快速服务器"
   },
   {
-    "Key": "normalserver",
+    "Key": "normal.server",
     "ValueEn": "Normal Server",
     "ValueVi": "Máy Chủ Thường",
     "ValueZh": "普通服务器"
@@ -924,15 +930,9 @@
     "ValueZh": "电影名称"
   },
   {
-    "Key": "screenshot",
-    "ValueEn": "Screenshot",
-    "ValueVi": "Ảnh Nền",
-    "ValueZh": "截屏"
-  },
-  {
-    "Key": "screenshot",
-    "ValueEn": "Screenshot",
-    "ValueVi": "Ảnh Nền",
-    "ValueZh": "截屏"
+    "Key": "watch.movie",
+    "ValueEn": "to watch movie",
+    "ValueVi": "để xem phim.",
+    "ValueZh": "看电影"
   }
 ]
