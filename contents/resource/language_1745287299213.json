@@ -1,6 +1,6 @@
 ﻿[
   {
-    "Key": "InputOnlyWord",
+    "Key": "inputonlyword",
     "ValueEn": "Input word",
     "ValueZh": "输入字词",
     "ValueVi": "Nhập vào Từ"
@@ -12,7 +12,7 @@
     "ValueVi": "Tìm Kiếm Nâng Cao"
   },
   {
-    "Key": "Clear",
+    "Key": "clear",
     "ValueEn": "Clear",
     "ValueZh": "重写",
     "ValueVi": "Xóa"
@@ -78,7 +78,7 @@
     "ValueVi": "Đăng Ký"
   },
   {
-    "Key": "Search",
+    "Key": "search",
     "ValueEn": "Search",
     "ValueZh": "搜索",
     "ValueVi": "Tìm kiếm"
@@ -805,7 +805,7 @@
   },
   {
     "Key": "best",
-    "ValueEn": "Top Picks",
+    "ValueEn": "Top Best Movies",
     "ValueVi": "Phim Hay Thời Đại",
     "ValueZh": "经典影片"
   },
@@ -820,5 +820,119 @@
     "ValueEn": "Anime",
     "ValueVi": "Phim Hoạt Hình",
     "ValueZh": "动漫"
+  },
+  {
+    "Key": "genre",
+    "ValueEn": "Genre",
+    "ValueVi": "Thể Loại",
+    "ValueZh": "类型"
+  },
+  {
+    "Key": "actors",
+    "ValueEn": "Stars",
+    "ValueVi": "Diễn Viên",
+    "ValueZh": "主演"
+  },
+  {
+    "Key": "director",
+    "ValueEn": "Director",
+    "ValueVi": "Đạo Diễn",
+    "ValueZh": "導演"
+  },
+  {
+    "Key": "nation",
+    "ValueEn": "Nation",
+    "ValueVi": "PQuốc Gia",
+    "ValueZh": "制片国家/地区"
+  },
+  {
+    "Key": "episodes",
+    "ValueEn": "episodes",
+    "ValueVi": "Số Tập",
+    "ValueZh": "非凡"
+  },
+  {
+    "Key": "Season",
+    "ValueEn": "Season",
+    "ValueVi": "Phần",
+    "ValueZh": "制片国家/地区"
+  },
+  {
+    "Key": "intro",
+    "ValueEn": "Intro",
+    "ValueVi": "Giới Thiệu",
+    "ValueZh": "剧情简介"
+  },
+  {
+    "Key": "releasedate",
+    "ValueEn": "Release date",
+    "ValueVi": "Ngày Phát Hành",
+    "ValueZh": "发布日期"
+  },
+  {
+    "Key": "language",
+    "ValueEn": "Language",
+    "ValueVi": "Ngôn Ngữ",
+    "ValueZh": "语言"
+  },
+  {
+    "Key": "runtime",
+    "ValueEn": "Runtime",
+    "ValueVi": "Thời Gian Chiếu",
+    "ValueZh": "运行时"
+  },
+  {
+    "Key": "budget",
+    "ValueEn": "Budget",
+    "ValueVi": "Ngân Sách",
+    "ValueZh": "预算"
+  },
+  {
+    "Key": "revenue",
+    "ValueEn": "Revenue",
+    "ValueVi": "Doanh Thu",
+    "ValueZh": "收入"
+  },
+  {
+    "Key": "screenshot",
+    "ValueEn": "Screenshot",
+    "ValueVi": "Ảnh Nền",
+    "ValueZh": "截屏"
+  },
+  {
+    "Key": "youalsolike",
+    "ValueEn": "You may also like",
+    "ValueVi": "Cùng Thể Loại",
+    "ValueZh": "猜你喜欢"
+  },
+  {
+    "Key": "fastserver",
+    "ValueEn": "Fast Server",
+    "ValueVi": "Máy Chủ Nhanh",
+    "ValueZh": "快速服务器"
+  },
+  {
+    "Key": "normalserver",
+    "ValueEn": "Normal Server",
+    "ValueVi": "Máy Chủ Thường",
+    "ValueZh": "普通服务器"
+  },
+  {
+    "Key": "movie.name",
+    "ValueEn": "Movie Name",
+    "ValueVi": "Tên Phim",
+    "ValueZh": "电影名称"
+  },
+  {
+    "Key": "screenshot",
+    "ValueEn": "Screenshot",
+    "ValueVi": "Ảnh Nền",
+    "ValueZh": "截屏"
+  },
+  {
+    "Key": "screenshot",
+    "ValueEn": "Screenshot",
+    "ValueVi": "Ảnh Nền",
+    "ValueZh": "截屏"
   }
 ]
