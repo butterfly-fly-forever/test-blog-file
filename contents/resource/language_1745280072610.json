@@ -738,24 +738,6 @@
     "ValueVi": "Công Cụ"
   },
   {
-    "Key": "tv.drama",
-    "ValueEn": "TV Drama",
-    "ValueZh": "电视剧",
-    "ValueVi": "Phim Bộ"
-  },
-  {
-    "Key": "movie",
-    "ValueEn": "Movie",
-    "ValueZh": "电影",
-    "ValueVi": "Phim Điện Ảnh"
-  },
-  {
-    "Key": "anime",
-    "ValueEn": "Anime",
-    "ValueZh": "动漫",
-    "ValueVi": "Phim Hoặt Hình"
-  },
-  {
     "Key": "karaoke",
     "ValueEn": "Karaoke",
     "ValueZh": "卡拉OK",
@@ -802,5 +784,35 @@
     "ValueEn": "Download",
     "ValueZh": "下载",
     "ValueVi": "Tải xuống"
+  },
+  {
+    "Key": "movies",
+    "ValueEn": "Movies",
+    "ValueVi": "Phim",
+    "ValueZh": "电影"
+  },
+  {
+    "Key": "cinema",
+    "ValueEn": "Cinema",
+    "ValueVi": "Phim Điện Ảnh",
+    "ValueZh": "电影院"
+  },
+  {
+    "Key": "tv",
+    "ValueEn": "TV Series",
+    "ValueVi": "Phim Truyền Hình",
+    "ValueZh": "电视剧"
+  },
+  {
+    "Key": "best",
+    "ValueEn": "Top Picks",
+    "ValueVi": "Phim Hay Thời Đại",
+    "ValueZh": "经典影片"
+  },
+  {
+    "Key": "romance",
+    "ValueEn": "Romance",
+    "ValueVi": "Phim Lãng Mạn",
+    "ValueZh": "浪漫电影"
   }
 ]
