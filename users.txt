@@ -1,0 +1,2 @@
+
+[{"id":"6df1bb54-4dca-4fed-abc7-698be06d96a0","fullname":"test2","email":"test@gmail.com","password":"1232","birthday":"11/2025/04"}]
