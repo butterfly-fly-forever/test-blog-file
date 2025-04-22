@@ -1,2 +1,0 @@
-[{"id":"efcccf01-7fed-49db-bba4-9e0817f18620","fullname":"test","email":"test@gmail.com","password":"123","birthday":"10/2025/04"}]
-[{"id":"efcccf01-7fed-49db-bba4-9e0817f18620","fullname":"test","email":"test@gmail.com","password":"123","birthday":"10/2025/04"},{"id":"db968b14-1960-4f59-b382-b3bec3aa6f4d","fullname":"test 2","email":"test2@gmail.com","password":"123","birthday":"10/2025/04"}]
