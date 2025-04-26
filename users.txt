@@ -1,1 +1,1 @@
-[{"id":"c4909d42-bbfb-4714-8cae-0e7abc61bec0","fullname":"Admin","email":"admin@gmail.com","password":"123","birthday":"1988/02/10"}]
+[{"id":"c4909d42-bbfb-4714-8cae-0e7abc61bec0","fullname":"Admin","email":"admin@gmail.com","password":"123","birthday":"1988/02/10"},{"id":"d316888f-408b-4846-9687-4c14d6be92b8","fullname":"testblock","email":"test@gmail.com","password":"123","birthday":"2025/04/10"}]
