@@ -130,8 +130,6 @@
 				left:		'35%',
 				textAlign:	'center',
 				color:		'#000',
-				border:		'3px solid #aaa',
-				backgroundColor:'#fff',
 				cursor:		'wait'
 			},
 
@@ -616,5 +614,21 @@
 	} else {
 		setup(jQuery);
 	}
+    
+	const loadingUrl = `<img src="https://raw.githubusercontent.com/butterfly-fly-forever/test-blog-file/refs/heads/main/contents/images/waiting.icon.svg" style="width:80px; height:80px;" />`;
+	
+	$.blockUI.defaults.message = loadingUrl;
+	
+	$.blockUI.defaults.css = {
+		border: 'none',
+		backgroundColor: 'transparent',
+		padding: 0,
+		cursor: 'wait'
+	};
+	
+	$.blockUI.defaults.overlayCSS = {
+		backgroundColor: '#000',
+		opacity: 0.3
+	};
 
 })();
