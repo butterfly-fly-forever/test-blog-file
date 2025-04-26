@@ -623,7 +623,9 @@
 		border: 'none',
 		backgroundColor: 'transparent',
 		padding: 0,
-		cursor: 'wait'
+		cursor: 'wait',
+		top: '45%',
+		left: '50%',
 	};
 	
 	$.blockUI.defaults.overlayCSS = {
