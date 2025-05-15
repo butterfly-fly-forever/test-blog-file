@@ -3660,14 +3660,13 @@ button {
 }
 .blog-post-item.style-four .post-thumbnail {
   flex: 0 0 auto;
-  max-width: 340px;
+  max-width: 200px;
   width: 100%;
   margin-right: 20px;
-  border: 1px solid var(--primary-dark-color);
   border-radius: 10px;
 }
 .blog-post-item.style-four .post-thumbnail img {
-  width: 100%;
+  width: auto;
   border-radius: 10px;
 }
 .blog-post-item.style-four .post-content h3.title {
