@@ -501,46 +501,6 @@ CSS TABLE OF CONTENTS
 	});
 	// Background image date area end here ***
 
-	// Video popup area start here ***
-	$(".video-popup").magnificPopup({
-		type: "iframe",
-		iframe: {
-			markup:
-				'<div class="mfp-iframe-scaler">' +
-				'<div class="mfp-close"></div>' +
-				'<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-				"</div>",
-
-			patterns: {
-				youtube: {
-					index: "youtube.com/",
-
-					id: "v=",
-
-					src: "https://www.youtube.com/embed/%id%?autoplay=1",
-				},
-				vimeo: {
-					index: "vimeo.com/",
-					id: "/",
-					src: "//player.vimeo.com/video/%id%?autoplay=1",
-				},
-				gmaps: {
-					index: "//maps.google.",
-					src: "%id%&output=embed",
-				},
-			},
-
-			srcAction: "iframe_src",
-		},
-	});
-	// Video popup area end here ***
-
-	// Counter up area start here ***
-	$(".count").counterUp({
-		delay: 20,
-		time: 2000,
-	});
-	// Counter up area end here ***
 
 	// Coundawn area start here ***
 	var targetDate = new Date("2024-07-12 00:00:00").getTime();
@@ -609,19 +569,9 @@ CSS TABLE OF CONTENTS
 	});
 	// Hover add class area start here ***
 
-	// Nice seclect area start here ***
-	$(document).ready(function () {
-		$("select").niceSelect();
-	});
+
 	// Nice seclect area end here ***
 
-	// Footer image popup start here ***
-	$(".footer-popup").magnificPopup({
-		type: "image",
-		gallery: {
-			enabled: true,
-		},
-	});
 	// Footer image popup end here ***
 
 	// Back to top area start here ***
