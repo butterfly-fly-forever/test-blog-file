@@ -576,23 +576,30 @@ CSS TABLE OF CONTENTS
 
 	// Back to top area start here ***
 	var scrollPath = document.querySelector(".scroll-up path");
-	var pathLength = scrollPath.getTotalLength();
-	scrollPath.style.transition = scrollPath.style.WebkitTransition = "none";
-	scrollPath.style.strokeDasharray = pathLength + " " + pathLength;
-	scrollPath.style.strokeDashoffset = pathLength;
-	scrollPath.getBoundingClientRect();
-	scrollPath.style.transition = scrollPath.style.WebkitTransition =
-		"stroke-dashoffset 10ms linear";
-	var updatescroll = function () {
-		var scroll = $(window).scrollTop();
-		var height = $(document).height() - $(window).height();
-		var scroll = pathLength - (scroll * pathLength) / height;
-		scrollPath.style.strokeDashoffset = scroll;
-	};
-	updatescroll();
-	$(window).scroll(updatescroll);
+	
+	if(scrollPath) {
+		var pathLength = scrollPath.getTotalLength();
+		scrollPath.style.transition = scrollPath.style.WebkitTransition = "none";
+		scrollPath.style.strokeDasharray = pathLength + " " + pathLength;
+		scrollPath.style.strokeDashoffset = pathLength;
+		scrollPath.getBoundingClientRect();
+		scrollPath.style.transition = scrollPath.style.WebkitTransition =
+			"stroke-dashoffset 10ms linear";
+		var updatescroll = function () {
+			var scroll = $(window).scrollTop();
+			var height = $(document).height() - $(window).height();
+			var scroll = pathLength - (scroll * pathLength) / height;
+			scrollPath.style.strokeDashoffset = scroll;
+		};
+		
+		updatescroll();
+		
+		$(window).scroll(updatescroll);
+	}
+	
 	var offset = 50;
 	var duration = 950;
+	
 	jQuery(window).on("scroll", function () {
 		if (jQuery(this).scrollTop() > offset) {
 			jQuery(".scroll-up").addClass("active-scroll");
