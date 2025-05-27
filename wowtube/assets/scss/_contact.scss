@@ -1,0 +1,263 @@
+.login-wrapper {
+    padding: 30px;
+    background-color: $bg-color-2;
+    border-radius: 30px;
+    position: relative;
+
+    .logo {
+        margin-bottom: 50px;
+    }
+
+    .sign-img {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+
+       @include breakpoint (max-xl){
+            display: none;
+       }
+    }
+
+    .signin-item {
+        padding: 60px 60px;
+        text-align: center;
+        background-color: $black;
+        border-radius: 25px;
+
+        @include breakpoint (max-md){
+            padding: 40px 30px;
+        }
+
+        .sign-header {
+            margin-bottom: 50px;
+
+            h3 {
+                font-size: 40px;
+                color: $white;
+            }
+    
+            p {
+                color: $white;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+        }
+
+        .input-item {
+            input {
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: capitalize;
+                border: none;
+                outline: none;
+                width: 100%;
+                background-color: transparent;
+                padding-bottom: 15px;
+                border-bottom: 1px solid rgba(255, 255, 255, .15);
+
+                &::placeholder {
+                    color: $white;
+                }
+            }
+
+            &:not(:last-child){
+                margin-bottom: 30px;
+            }
+        }
+
+        .form-check {
+            @include flex;
+            padding: 0;
+            justify-content: space-between;
+
+            .form-check-label {
+                color: $white;
+                margin-left: 10px;
+            }
+
+            span {
+                font-weight: 600;
+                color: $theme-color;
+            }
+        }
+
+        .button-items {
+            margin-top: 30px;
+
+            .theme-btn {
+                width: 100%;
+                padding: 18.5px 60px;
+                font-size: 18px;
+                font-weight: 700;
+
+                &.style-2 {
+                    margin-top: 20px;
+                    background-color: $white;
+                    color: $black;
+                    padding: 16px 60px;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        h6 {
+            color: $white;
+            font-weight: 600;
+            margin-top: 30px;
+
+            a {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+.contact-wrapper-2 {
+    .contact-left-items {
+        .contact-info-area-2 {
+            padding: 40px;
+            background-color: $bg-color-2;
+
+            .contact-info-items {
+                @include flex;
+                gap: 20px;
+                position: relative;
+                padding-bottom: 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        
+                @include breakpoint (max-xl){
+                    flex-wrap: wrap;
+                }
+        
+                .icon {
+                    width: 65px;
+                    height: 65px;
+                    line-height: 65px;
+                    text-align: center;
+                    position: relative;
+        
+                    &::before {
+                        @include before;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url('../../assets/img/circle-3.png');
+                        animation: cir36 10s linear infinite;
+                    }
+                }
+        
+                .content {
+                    p {
+                        color: $white;
+                        margin-bottom: 5px;
+                    }
+        
+                    h3 {
+                        font-size: 24px;
+                        color: $white;
+        
+                        a {
+                            color: $white;
+                        }
+                    }
+                }
+
+                &.border-none {
+                    border: none !important;
+                }
+            }
+        }
+
+        .video-image {
+            position: relative;
+
+            img {
+                @include imgw;
+            }
+
+            .video-box {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                z-index: 9;
+        
+                .video-btn {
+                    display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $theme-color;
+                    background-color: $white;
+                }
+        
+                .ripple {
+                    &::before,&::after {
+                        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8);
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-content {
+        margin-left: 40px;
+
+        @include breakpoint (max-lg){
+            margin-left: 0;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 55px;
+        }
+
+        .contact-form-items {
+            margin-top: 30px;
+
+            .form-clt {
+                span {
+                    color: $text-color;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    display: block;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+        
+                input,textarea {
+                    color: $text-color;
+                    padding: 18px 20px;
+                    width: 100%;
+                    background-color: $bg-color-2;
+                    border: none;
+
+                    &::placeholder {
+                        color: $text-color;
+                    }
+                }
+        
+                textarea {
+                    padding-bottom: 150px;
+                }
+            }
+        }
+    }
+}
+
+.map-items {
+    .googpemap {
+        iframe {
+            width: 100%;
+            height: 600px;
+
+            @include breakpoint (max-sm){
+                height: 400px;
+            }
+        }
+    }
+}

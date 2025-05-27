@@ -1,0 +1,435 @@
+.hero-1 {
+    margin-top: 50px;
+    
+    .container-fluid {
+        padding: 0 100px;
+
+        @include breakpoint (max-xxxl){
+            padding: 0 40px;
+        }
+
+        @include breakpoint (max-xl){
+            padding: 0 30px;
+        }
+    }
+
+    .hero-image {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            @include imgw;
+            border-radius: 20px;
+        }
+
+        .movie-content {
+            position: absolute;
+            bottom: -130px;
+            left: 30px;
+            opacity: 0;
+            visibility: hidden;
+            @include transition;
+
+            .post-time {
+                @include flex;
+                gap: 15px;
+                margin-bottom: 6px;
+
+                li {
+                    color: $white;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                    i {
+                        margin-right: 7px;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 40px;
+
+                a {
+                    color: $white;
+                }
+            }
+
+            p {
+                font-weight: 600;
+                color: $white;
+                text-transform: capitalize;
+                margin-top: 5px;
+            }
+        }
+
+        .video-btn {
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            line-height: 90px;
+            border-radius: 50%;
+            background-color: $white;
+            color: $theme-color;
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+            top: -100px;
+            transform: translate(-50%,-50%);
+            @include transition;
+            opacity: 0;
+            visibility: hidden;
+
+            &.ripple {
+                &::before,&::after {
+                    width: 90px;
+                    height: 90px;
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, .5);
+                }
+            }
+        }
+
+        &::before {
+            @include before;
+            border-radius: 20px;
+            background: linear-gradient(180deg, rgba(255, 0, 0, 0.00) 0%, #F00 100%);
+            opacity: 0;
+            visibility: hidden;
+            @include transition;
+        }
+
+        &:hover {
+            .movie-content {
+                bottom: 30px;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            &::before {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .video-btn {
+                top: 50%;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.hero-2 {
+    position: relative;
+
+    .container-fluid {
+        padding: 0 100px;
+
+        @include breakpoint (max-xl){
+            padding: 0 30px;
+        }
+    }
+
+    .text-stoke {
+        position: absolute;
+        top: 50%;
+        right: 44px;
+        transform: translateY(-50%);
+        z-index: 2;
+
+        @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
+
+    .hero-items {
+        position: relative;
+        padding: 300px 0 300px;
+
+        .hero-slider-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+            transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+            transition: transform 9000ms ease, opacity 1500ms ease-in;
+            transition: transform 9000ms ease, opacity 1500ms ease-in, -webkit-transform 9000ms ease;
+    
+            &::before {
+                @include before;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 101.12%);
+                z-index: 1;
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 99;
+            opacity: 0;
+            transform: translateY(150px);
+
+            @include breakpoint (max-xl){
+                margin-bottom: 80px;
+            }
+
+            @include breakpoint (max-md){
+               margin-bottom: 0;
+            }
+
+
+            h1 {
+                color: $white;
+                font-size: 130px;
+                font-weight: 700;
+
+                @include breakpoint (max-xl){
+                    font-size: 100px;
+                }
+
+                @include breakpoint (max-md){
+                   font-size: 75px;
+                }
+
+                @include breakpoint (max-sm){
+                    font-size: 55px;
+                }
+
+                span {
+                    font-weight: 400;
+                }
+            }
+
+            ul {
+                margin-top: 20px;
+               
+
+               li {
+                    color: $white;
+                    font-size: 20px;
+                    font-weight: 400;
+               }
+            }
+
+            p {
+                color: $white;
+                max-width: 560px;
+                margin-top: 30px;
+                text-transform: capitalize;
+            }
+
+            .hero-button {
+                margin-top: 40px;
+                gap: 40px;
+                @include flex;
+                
+                @include breakpoint (max-xl){
+                    gap: 30px;
+                    flex-wrap: wrap;
+                }
+
+                .theme-btn {
+                    border: 1px solid $theme-color;
+                    background-color: transparent;
+                    padding: 19.5px 60px;
+                    min-width: 200px;            
+                }
+
+                .video-btn {
+                    background-color: transparent;
+                    color: $theme-color;
+                    display: inline-block;
+                    font-size: 16px;
+                    height: 50px;
+                    width: 50px;
+                    line-height: 50px;
+                    border-radius: 50%;
+                    text-align: center;
+                    position: relative;
+                    border: 1px solid $theme-color;
+                }
+    
+                .button-text {
+                    span {
+                        font-size: 24px;
+                        color: $white;
+                        font-weight: 400;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner-thumnail-area-3 {
+        counter-reset: post-counter;
+        position: absolute;
+        right: 0;
+        bottom: 100px;
+        max-width: 960px;
+        z-index: 44;
+
+        @include breakpoint (max-xxxl){
+           bottom: 0;
+        }
+
+        @include breakpoint (max-lg){
+            max-width: 100%;
+            right: initial;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .banner-img {
+            @include breakpoint (max-lg){
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            img {
+                border-radius: 20px;
+                
+                @include breakpoint (max-lg){
+                   width: 100%;
+                }
+
+                @include breakpoint (max-md){
+                   width: initial;
+                }
+            }
+        }
+    }
+
+    .swiper-slide.swiper-slide-active {
+        .hero-slider-bg {
+            -webkit-transform: scale(1.35);
+            transform: scale(1.35);
+        }
+        
+        .hero-content{
+            opacity: 1;
+            transform: translateY(0px);
+            transition: all 2500ms ease;
+        }
+    }
+}
+
+.hero-3 {
+    .hero-image-area {
+        padding: 250px 250px;
+        position: relative;
+
+        @include breakpoint (max-xxxl){
+            padding: 170px 70px;
+        }
+
+        @include breakpoint (max-md){
+            padding: 140px 60px;
+        }
+
+        @include breakpoint (max-sm){
+            padding: 120px 40px;
+        }
+
+        &::before {
+            @include before;
+            background-color: #000;
+            opacity: .5;
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 99;
+            opacity: 0;
+            transform: translateY(150px);
+
+            h1 {
+                color: $white;
+
+                @include breakpoint (max-sm){
+                    font-size: 50px;
+                }
+            }
+
+            ul {
+                @include flex;
+                gap: 30px;
+                margin-top: 40px;
+                margin-bottom: 30px;
+
+                @include breakpoint (max-xl){
+                    flex-wrap: wrap;
+                    gap: 20px;
+                }
+
+                li {
+                    font-size: 18px;
+                    color: $white;
+
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    span {
+                        display: inline-block;
+                        color: $white;
+                        background-color: $theme-color;
+                        line-height: 1;
+                        padding: 5px 7px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            p {
+                font-size: 18px;
+                color: $white;
+                font-size: 20px;
+                line-height: 150%;
+            }
+
+            .video-text {
+                display: inline-block;
+                background-color: $white;
+                font-size: 18px;
+                font-weight: 600;
+                color: $theme-color;
+                padding: 22px 40px;
+                text-transform: uppercase;
+                border-radius: 100px;
+                line-height: 1;
+                margin-top: 40px;
+        
+                i {
+                    margin-left: 10px;
+                }
+        
+                &.ripple {
+                   
+                  
+                    &::before,&::after {
+                        width: 180px;
+                        height: 53px;
+                        border-radius: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper-slide.swiper-slide-active {
+        
+        .hero-content{
+            opacity: 1;
+            transform: translateY(0px);
+            transition: all 2500ms ease;
+        }
+    }
+}

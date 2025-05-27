@@ -1,0 +1,36 @@
+.testimonial-box-items {
+    margin-top: 30px;
+    padding: 40px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+
+    .star {
+        color: $theme-color;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 17px;
+        color: $white;
+        opacity: .9;
+    }
+
+    .client-info {
+        margin-top: 30px;
+        @include flex;
+        gap: 15px;
+
+        .client-img {
+            width: 55px;
+            height: 55px;
+        }
+    }
+}
+
+.testimonial-wrapper {
+    margin-right: -30%;
+
+    @include breakpoint (max-xl){
+        margin-right: 0;
+    }
+}
