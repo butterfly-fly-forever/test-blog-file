@@ -1,1 +1,1 @@
-[{"ip":"171.252.168.176","country":"Vietnam","city":"Tam Kỳ","code":"7jCALQS4gJwbxQ","title":"Shadow (Dead Riot) (2006)","createdOn":"03-07-2025 16:19"}]
+[{"ip":"171.252.168.176","country":"Vietnam","city":"Tam Ká»³","code":"7jCALQS4gJwbxQ","title":"Shadow (Dead Riot) (2006)","createdOn":"03-07-2025 16:19"},{"page":"korea18phim.blogspot.com","ip":"171.252.168.176","country":"Vietnam","city":"Tam Kỳ","code":"actor gallery: undefined","title":"Gallery page","createdOn":"04-07-2025 05:58"}]
