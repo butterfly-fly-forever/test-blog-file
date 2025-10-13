@@ -184,11 +184,5 @@
     "code": "@IQvh1AhnJhVFRL",
     "title": "Flash Point (2007)",
     "createdOn": "11-10-2025 20:15"
-  },
-  {
-    "ip": "171.227.173.241",
-    "country": "Vietnam",
-    "title": "Actor List",
-    "code": "actor-page"
-  },
+  }
 ]
