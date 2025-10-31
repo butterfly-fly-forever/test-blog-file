@@ -157,20 +157,6 @@
         h = $body.height();
     }
 
-    // ✅ FIXED: Canh giữa chính xác, không dùng margin-left/top nữa
-    // Dùng position fixed + transform chuẩn
-    $body.css({
-        'position': 'fixed',
-        'top': '50%',
-        'left': '50%',
-        'transform': 'translate(-50%, -50%)',
-        'margin': 0,
-        'z-index': 705, // đảm bảo nổi trên background
-        'background': '#fff',
-        'border-radius': '10px',
-        'box-shadow': '0 0 10px rgba(0,0,0,0.6)',
-        'overflow': 'auto'
-    });
 }
 	
 	function get(name){
