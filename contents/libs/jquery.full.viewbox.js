@@ -124,39 +124,54 @@
 		};
 	};
 		
-	function openWindow(width,height){
-		var $body = get('body')
-			,$content = get('content')
-			,$header = get('header')
-			,$footer = get('footer')
-			,w,h;
-		if(width){
-			$content.width(width);
-			$header.width(width);
-			$footer.width(width);
-		}else if(!state){
-			$header.width(1);
-			$footer.width(1);
-		}
-		if(height)
-			$content.height(height);
-		if(!state){
-			state = true;
-			$('body').append($container);
-			$container.show();
-			w = $body.width();
-			h = $body.height();
-			$container.hide();
-			$container.fadeIn(options.openDuration);
-		}else{
-			w = $body.width();
-			h = $body.height();
-		};
-		$body.css({
-			'margin-left': -w/2
-			,'margin-top': -h/2
-		});
-	};
+	function openWindow(width, height) {
+    var $body = get('body'),
+        $content = get('content'),
+        $header = get('header'),
+        $footer = get('footer'),
+        w, h;
+
+    // Gán chiều rộng / cao nếu có truyền vào
+    if (width) {
+        $content.width(width);
+        $header.width(width);
+        $footer.width(width);
+    } else if (!state) {
+        $header.width(1);
+        $footer.width(1);
+    }
+    if (height)
+        $content.height(height);
+
+    // Khi popup mở lần đầu
+    if (!state) {
+        state = true;
+        $('body').append($container);
+        $container.show();
+        w = $body.width();
+        h = $body.height();
+        $container.hide();
+        $container.fadeIn(options.openDuration);
+    } else {
+        w = $body.width();
+        h = $body.height();
+    }
+
+    // ✅ FIXED: Canh giữa chính xác, không dùng margin-left/top nữa
+    // Dùng position fixed + transform chuẩn
+    $body.css({
+        'position': 'fixed',
+        'top': '50%',
+        'left': '50%',
+        'transform': 'translate(-50%, -50%)',
+        'margin': 0,
+        'z-index': 705, // đảm bảo nổi trên background
+        'background': '#fff',
+        'border-radius': '10px',
+        'box-shadow': '0 0 10px rgba(0,0,0,0.6)',
+        'overflow': 'auto'
+    });
+}
 	
 	function get(name){
 		return $container.find('.viewbox-'+name);
