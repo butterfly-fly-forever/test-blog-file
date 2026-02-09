@@ -1,0 +1,272 @@
+:root {
+  --primary-color: #E50914; /* Netflix Red */
+  --secondary-color: #d0f050;
+  --secondary-light-color: #333;
+  --primary-dark-color: #000;
+  --white-color: #fff;
+  --text-color: #e5e5e5;
+  --light-gray: #404040;
+  --main-bg: #141414;
+  --gray-bg: #181818;
+  --heading-font: 'Bitter', serif;
+  --body-font: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--text-color);
+    font-family: var(--body-font);
+}
+
+a { color: var(--white-color); text-decoration: none; transition: 0.3s; }
+a:hover { color: var(--primary-color); }
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--white-color);
+    font-family: var(--heading-font);
+}
+
+/* Movie Card Styles */
+.movie-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #222;
+    transition: transform 0.3s ease;
+    height: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border-color: var(--primary-color);
+}
+
+.movie-poster-card {
+    position: relative;
+    aspect-ratio: 2/3;
+    overflow: hidden;
+}
+
+.movie-poster-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.movie-card:hover .movie-overlay {
+    opacity: 1;
+}
+
+.play-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.5);
+}
+
+.play-icon::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-left: 5px;
+}
+
+.movie-info {
+    padding: 12px;
+}
+
+.movie-title-card {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 1.3;
+    height: 2.6em; /* Limit to 2 lines */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.movie-title-card a {
+    color: var(--white-color);
+}
+
+.movie-title-card a:hover {
+    color: var(--primary-color);
+}
+
+.movie-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 8px;
+}
+
+.movie-badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+/* Search Area */
+.product-search-category form {
+    background-color: #222;
+    border-color: #444;
+}
+.product-search-category form input {
+    background-color: transparent;
+    color: white;
+    border-left-color: #444;
+}
+.product-search-category form input::placeholder {
+    color: #888;
+}
+.product-search-category form .search-btn {
+    color: white;
+}
+
+/* Pagination */
+.pagination-wrapper {
+    margin-top: 40px;
+    text-align: center;
+}
+.pesco-pagination ul li a {
+    border-color: #444;
+    color: white;
+    background-color: #222;
+}
+.pesco-pagination ul li a:hover, .pesco-pagination ul li.active a {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Header Override - Fix Menu Layout */
+.header-navigation {
+    background-color: #000 !important;
+    border-bottom: 1px solid #333;
+}
+
+/* Main Menu Layout */
+.header-navigation .main-menu > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-navigation .main-menu > ul > li {
+    position: relative;
+    display: inline-block;
+}
+
+.header-navigation .main-menu > ul > li > a {
+    display: block;
+    padding: 15px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.header-navigation .main-menu > ul > li:hover > a,
+.header-navigation .main-menu > ul > li > a:hover {
+    color: var(--primary-color);
+}
+
+/* Submenu / Dropdown */
+.header-navigation .main-menu .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    display: none; /* Hide by default */
+    list-style: none;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.header-navigation .main-menu li:hover .sub-menu {
+    display: block; /* Show on hover */
+}
+
+.header-navigation .main-menu .sub-menu li {
+    display: block;
+    width: 100%;
+}
+
+.header-navigation .main-menu .sub-menu li a {
+    display: block;
+    padding: 8px 15px;
+    color: #ccc;
+    font-size: 13px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #2a2a2a;
+    transition: background 0.2s;
+}
+
+.header-navigation .main-menu .sub-menu li a:hover {
+    background-color: #333;
+    color: var(--primary-color);
+}
+
+/* Footer */
+.footer-dark {
+    background-color: #000;
+    color: #aaa;
+    border-top: 1px solid #333;
+}
+.footer-widget h4.widget-title {
+    color: white;
+}
+
+/* Reset E-commerce Elements */
+.product-item { display: none !important; } /* Hide old items if any remain */
+
+/* Button / Episode Links */
+.btn, .button, button, input[type="button"], input[type="submit"] {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+/* Specific fix for Episode buttons if they use generic links */
+.post-body a[href*="tap"], .post-body a.btn-danger {
+    display: inline-block;
+    margin: 5px;
+}
