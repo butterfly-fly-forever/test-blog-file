@@ -216,7 +216,7 @@
   {
     "ip": "171.245.224.178",
     "country": "Vietnam",
-    "city": "VÃÂ¡ÃÂ»ÃÂ Thanh",
+    "city": "VÃÂÃÂ¡ÃÂÃÂ»ÃÂÃÂ Thanh",
     "code": "Uo4bEZXpIE4CpEHUgHZ!",
     "title": "No More Bets (2023)",
     "createdOn": "06-05-2026 08:04"
@@ -230,6 +230,12 @@
     "code": "lKH2Ic7ewtnIx!h",
     "title": "Amusement (2009)",
     "createdOn": "01-06-2026 16:16"
+  },
+  {
+    "ip": "2402:800:6233:2821:113e:388:1bfd:458f",
+    "country": "Viet Nam",
+    "title": "Actor List",
+    "code": "actor-page"
   },
   {
     "ip": "2402:800:6233:2821:113e:388:1bfd:458f",
